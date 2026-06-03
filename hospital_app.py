@@ -25,6 +25,12 @@ st.markdown("""
     font-size: 16px !important; font-weight: 600 !important;
     width: 100% !important; letter-spacing: 0.02em !important;
     box-shadow: 0 4px 14px rgba(26,86,219,0.35) !important;
+
+    div.stButton > button:hover { background: linear-gradient(135deg, #1e429f, #1a56db) !important; }
+
+    div[data-testid="stCheckbox"] label {
+    font-size: 14px !important; font-weight: 500 !important; color: #374151 !important;
+    }
   }
     
   </style>
